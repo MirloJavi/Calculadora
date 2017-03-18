@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+
+    <script type="text/javascript" src="js/calculadora.js"></script>
+
+
+
+</head>
+<body>
+<h1>Bienvenido a la calculadora de MirloJavi</h1>
+
+<br />
+<div class="contenedor1">
+
+    <div class="calculadora">
+        <input type="text" class="historial" id="hist" disabled="disabled"><br />
+        <input type="text" class="visor" id="num" disabled="disabled"><p>
+        <button class="boton" onclick="unitOperation('Xelevado2')">x<sup>2</button>
+        <button class="boton" onclick="unitOperation('InversoX')">1/x</button>
+        <button class="boton" onclick="unitOperation('RaizX')">&#x0221A;x</button>
+        <button class="boton" onclick="unitOperation('ParteEntera')">PE</button>
+        <p>
+            <button class="boton" onclick="Limpiar()">C</button>
+            <button class="boton" onclick="Borrar()">DEL</button>
+            <button class="boton" onclick="OperacionBinaria('XelevadoY')">x<sup>y</button>
+            <button class="boton" onclick="OperacionBinaria('Dividir')">/</button>
+        <p>
+            <button class="boton" onclick="Numero(7)">77</button>
+            <button class="boton" onclick="Numero(8)">88</button>
+            <button class="boton" onclick="Numero(9)">99</button>
+            <button class="boton" onclick="OperacionBinaria('Multiplicar')">*</button>
+        <p>
+
+            <button class="boton" onclick="Numero(4)">4</button>
+            <button class="boton" onclick="Numero(5)">5</button>
+            <button class="boton" onclick="Numero(6)">6</button>
+            <button class="boton" onclick="OperacionBinaria('Restar')">-</button>
+        <p>
+            <button class="boton" onclick="Numero(1)">1</button>
+            <button class="boton" onclick="Numero(2)">2</button>
+            <button class="boton" onclick="Numero(3)">3</button>
+            <button class="boton" onclick="OperacionBinaria('Sumar')">+</button>
+
+
+        <h1>Bienvenido a la calculadora de Mirlo</h1>
+        <h1>Bienvenido a la calculadora de Mirlo</h1>
+        <h1>Bienvenido a la calculadora de Mirlo</h1>
+        <h1>Bienvenido a la calculadora de Mirlo</h1>
+
+        <p>
+            <button class="boton" onclick="CambiarSigno()">+/-</button>
+            <button class="boton" onclick="Numero(0)">0</button>
+            <button class="boton" onclick="PuntoDecimal()">.</button>
+            <button class="boton" onclick="Igual()">=</button>
+    </div>
+</body>
+</html>
